@@ -1,0 +1,27 @@
+{
+  "name": "moviequ",
+  "version": "1.0.0",
+  "description": "Search your favorite movie, and get detai-movie",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start-dev": "webpack-dev-server"
+  },
+  "author": "Endah Sarah Wanty <endahsarahwanty13@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.2.0",
+    "style-loader": "^1.2.0",
+    "to-string-loader": "^1.1.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  }
+}
